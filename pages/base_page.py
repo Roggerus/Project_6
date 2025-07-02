@@ -8,6 +8,7 @@ class BasePage:
         self.driver = driver
         self.wait = WebDriverWait(driver, 5)
 
+    @allure.step('Поиск элемента по локатору: {locator}')
     def find(self, locator):
         return self.driver.find_element(*locator)
 

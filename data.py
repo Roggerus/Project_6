@@ -20,4 +20,3 @@ class TestData:
         [8, 'Да, обязательно. Всем самокатов! И Москве, и Московской области.']
     ]
 
-    scooter_adress = "https://qa-scooter.praktikum-services.ru/"
